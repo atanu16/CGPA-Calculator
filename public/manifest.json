@@ -1,6 +1,6 @@
 {
   "short_name": "CGPA Calculator",
-  "name": "Create React App Sample",
+  "name": "Calculate CGPA using SGPA",
   "icons": [
     {
       "src": "logo.png",
