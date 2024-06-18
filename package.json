@@ -34,5 +34,24 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  }
+  },
+  "description": "CGPA calculator",
+  "main": "index.js",
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/atanu16/CGPA-Calculator.git"
+  },
+  "keywords": [
+    "Cgpa",
+    "calculator",
+    "react",
+    "javascript"
+  ],
+  "author": "Atanu Bera",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/atanu16/CGPA-Calculator/issues"
+  },
+  "homepage": "https://github.com/atanu16/CGPA-Calculator#readme"
 }
