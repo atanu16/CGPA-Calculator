@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import Switch from 'react-switch';
+import { FaSun, FaMoon } from 'react-icons/fa';
 import './App.css';
 
 function App() {
@@ -43,7 +44,7 @@ function App() {
   };
 
   return (
-    <div className="App">
+    <div className={`App ${darkMode ? 'dark-mode' : 'light-mode'}`}>
       <h1>CGPA Calculator</h1>
       <div className="toggle-container">
         <label>{darkMode ? 'Dark Mode' : 'Light Mode'}</label>
@@ -52,6 +53,32 @@ function App() {
           checked={darkMode}
           offColor="#ccc"
           onColor="#333"
+          uncheckedIcon={
+            <div style={{
+              display: "flex",
+              alignItems: "center",
+              justifyContent: "center",
+              height: "100%",
+              fontSize: 18,
+              color: "white"
+            }}>
+               <FaMoon />
+            </div>
+          }
+          checkedIcon={
+            <div style={{
+              display: "flex",
+              alignItems: "center",
+              justifyContent: "center",
+              height: "100%",
+              fontSize: 18,
+              color: "white"
+            }}>
+              <FaSun />
+            </div>
+          }
+          offHandleColor="#fff"
+          onHandleColor="#fff"
         />
       </div>
       {semesters.map((semester, index) => (
