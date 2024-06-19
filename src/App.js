@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import Switch from 'react-switch';
-import { FaSun, FaMoon } from 'react-icons/fa';
+import { FaMoon } from 'react-icons/fa';
+import { IoSunnyOutline } from "react-icons/io5";
 import './App.css';
 
 function App() {
@@ -52,7 +53,7 @@ function App() {
           onChange={toggleDarkMode}
           checked={darkMode}
           offColor="#ccc"
-          onColor="#333"
+          onColor="#5B5555"
           uncheckedIcon={
             <div style={{
               display: "flex",
@@ -74,7 +75,7 @@ function App() {
               fontSize: 18,
               color: "white"
             }}>
-              <FaSun />
+              <IoSunnyOutline />
             </div>
           }
           offHandleColor="#fff"
