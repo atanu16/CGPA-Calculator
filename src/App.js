@@ -63,7 +63,7 @@ function App() {
               fontSize: 18,
               color: "white"
             }}>
-               <FaMoon />
+              <IoSunnyOutline />
             </div>
           }
           checkedIcon={
@@ -75,7 +75,7 @@ function App() {
               fontSize: 18,
               color: "white"
             }}>
-              <IoSunnyOutline />
+              <FaMoon />
             </div>
           }
           offHandleColor="#fff"
